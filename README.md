@@ -85,18 +85,21 @@ https://telemarketing-z7au.onrender.com
 
 ## ▶️ Como Executar o Projeto
 
-```bash
-# Clone o repositório
-git clone https://github.com/fabiooliveira95/telemarketing.git
+    bash
+    # Clone o repositório
+    git clone https://github.com/fabiooliveira95/telemarketing.git
 
-# Acesse o diretório
-cd telemarketing
+    # Acesse o diretório
+    cd telemarketing
 
-# (Opcional) Crie um ambiente virtual
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+    # (Opcional) Crie um ambiente virtual
+    python -m venv venv
+    source venv/bin/activate  # No Windows: venv\Scripts\activate
 
-# Instale as dependências
-pip install -r requirements.txt
+    # Instale as dependências
+    pip install -r requirements.txt
 
-# Execute o notebook no Jupyter ou ambiente de sua preferência
+    # Execute o notebook no Jupyter ou ambiente de sua preferência
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
