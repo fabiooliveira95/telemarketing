@@ -83,3 +83,17 @@ O objetivo é apoiar equipes de marketing e vendas na **tomada de decisão**, id
 
 ## 📁 Estrutura do Projeto
 
+---
+
+## 👤 Autor
+
+**Fábio Oliveira**  
+🔗 GitHub: [@fabiooliveira95](https://github.com/fabiooliveira95)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da **MIT License**.
+
+
