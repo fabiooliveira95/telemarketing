@@ -15,6 +15,24 @@ Uma empresa do setor bancário realizou diversas campanhas de marketing telefôn
 ### Link para a aplicacao (Livre)
 https://telemarketing-z7au.onrender.com/
 
+### Instalação
+
+* Como/aonde fazer o download do seu projeto/programa
+* Quaisquer modificação necessária nos arquivos/diretórios
+
+### Executando o projeto
+
+* Como rodar o projeto/programa
+* Passo a passo em tópicos (bullet points)
+```
+bloco de código para os comandos necessários
+```
+
+## Ajuda
+
+Qualquer ponto importante de problemas ou erros comuns
+```
+comando para rodar se o programa tiver uma informação de ajuda
 ---
 
 ## 📊 Base de Dados
