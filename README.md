@@ -31,8 +31,8 @@ Campanhas de telemarketing podem ser dispendiosas. Este projeto visa tornar essa
 
 ---
 
-### Link para a aplicacao (Livre)
-https://telemarketing-z7au.onrender.com/
+### Link para a aplicacao (Livre)[
+https://telemarketing-z7au.onrender.com
 
 ---
 ### 🎯 Variável Alvo
