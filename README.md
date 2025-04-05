@@ -109,4 +109,3 @@ Fábio Oliveira
 📧 fabiooliveira0067@gmail.com
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
