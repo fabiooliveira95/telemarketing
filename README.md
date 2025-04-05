@@ -7,6 +7,12 @@ Este projeto tem como objetivo analisar e prever o comportamento de clientes fre
 ## 🧠 Sobre o Projeto
 
 Uma empresa do setor bancário realizou diversas campanhas de marketing telefônico oferecendo seus produtos. Este projeto busca entender o perfil dos clientes que mais tendem a aceitar uma oferta e aplicar **modelos de machine learning** para ajudar na **tomada de decisão** e **aumentar a taxa de conversão**.
+---
+
+---
+
+### Link para a aplicacao (Livre)
+https://telemarketing-z7au.onrender.com/
 
 ---
 
