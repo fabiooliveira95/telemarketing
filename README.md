@@ -1,65 +1,85 @@
-# Título do projeto
+# 📞 Projeto Telemarketing – Previsão de Adesão de Clientes
 
-Um simples resumo do uso/propósito do projeto.
+Este projeto aplica técnicas de Machine Learning para prever se um cliente irá **aderir a um produto bancário** após uma campanha de telemarketing. Utilizamos dados reais do setor bancário europeu, disponíveis publicamente, para construir modelos de classificação binária.
 
-## Descrição do projeto
+---
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+## 🎯 Objetivo
 
-### Link para a aplicacao (Livre)
-https://telemarketing-z7au.onrender.com/
+O objetivo é apoiar equipes de marketing e vendas na **tomada de decisão**, identificando os clientes com maior chance de conversão durante campanhas telefônicas.
 
-## Utilização
+---
 
-### Dependencias
+## 🧩 Sobre o Dataset
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+- Origem: [UCI Machine Learning Repository – Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+- Registros: ~45.000 interações de clientes
+- Target: `y` → Cliente aderiu (`yes`) ou não (`no`) ao produto ofertado
+- Features: 
+  - Dados demográficos (idade, profissão, escolaridade)
+  - Comportamento financeiro (empréstimos, saldo)
+  - Interações com campanhas anteriores
 
-### Instalação
+---
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+## ⚙️ Pipeline do Projeto
 
-### Executando o projeto
+1. **Análise Exploratória (EDA)**
+   - Gráficos, distribuições e padrões de comportamento
+   - Correlações e impactos no target
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+2. **Pré-processamento**
+   - Encoding de variáveis categóricas
+   - Padronização de variáveis numéricas
+   - Split treino/teste
 
-## Ajuda
+3. **Modelagem**
+   - Algoritmos testados:
+     - Logistic Regression
+     - Decision Tree
+     - Random Forest
+     - KNN
+     - XGBoost
+     - Gradient Boosting
+   - Métricas de avaliação:
+     - Acurácia
+     - Matriz de Confusão
+     - Curva ROC e AUC
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+4. **Comparação e Escolha do Melhor Modelo**
 
-## Autores
+---
 
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
+## 📊 Resultados Principais
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+- Modelos em ensemble (Random Forest / Gradient Boosting) apresentaram melhor performance.
+- Fatores mais relevantes para adesão:
+  - Duração do contato
+  - Resultado de campanhas anteriores
+  - Tipo de contato (celular tem maior conversão)
+- Campanhas muito insistentes (muitos contatos) tendem a reduzir a taxa de conversão.
 
-## Histórico de versões.
+---
 
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
+## 💼 Aplicações Reais
 
-## Licença de uso
+- Otimização de listas de contato
+- Redução de custos com campanhas mal direcionadas
+- Aumento da conversão com segmentação inteligente
+- Ferramenta de apoio à decisão para equipes comerciais
 
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
+---
 
-## Fontes de inspiração
+## 🛠️ Tecnologias Utilizadas
 
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Seaborn, Matplotlib
+- XGBoost
+- Jupyter Notebook
+
+---
+
+## 📁 Estrutura do Projeto
+
