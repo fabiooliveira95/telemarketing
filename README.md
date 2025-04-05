@@ -1,104 +1,72 @@
-# 📞 Projeto Telemarketing – Previsão de Adesão de Clientes
+# 📞 Projeto Telemarketing – Análise e Predição de Adesão a Produtos Bancários
 
-Este projeto aplica técnicas de Machine Learning para prever se um cliente irá **aderir a um produto bancário** após uma campanha de telemarketing. Utilizamos dados reais do setor bancário europeu, disponíveis publicamente, para construir modelos de classificação binária.
-
----
-
-## 🎯 Objetivo
-
-O objetivo é apoiar equipes de marketing e vendas na **tomada de decisão**, identificando os clientes com maior chance de conversão durante campanhas telefônicas.
+Este projeto tem como objetivo analisar e prever o comportamento de clientes frente a campanhas de marketing realizadas por telefone. A ideia central é desenvolver modelos que consigam antecipar se um cliente irá ou não aderir a um produto bancário, com base em dados históricos.
 
 ---
 
-## 🧩 Sobre o Dataset
+## 🧠 Sobre o Projeto
 
-- Origem: [UCI Machine Learning Repository – Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
-- Registros: ~45.000 interações de clientes
-- Target: `y` → Cliente aderiu (`yes`) ou não (`no`) ao produto ofertado
-- Features: 
-  - Dados demográficos (idade, profissão, escolaridade)
-  - Comportamento financeiro (empréstimos, saldo)
-  - Interações com campanhas anteriores
+Uma empresa do setor bancário realizou diversas campanhas de marketing telefônico oferecendo seus produtos. Este projeto busca entender o perfil dos clientes que mais tendem a aceitar uma oferta e aplicar **modelos de machine learning** para ajudar na **tomada de decisão** e **aumentar a taxa de conversão**.
 
 ---
 
-### Link para a aplicacao (Livre)
-[https://telemarketing-z7au.onrender.com/](https://telemarketing-z7au.onrender.com)
+## 📊 Base de Dados
+
+- **Fonte:** [UCI Machine Learning Repository – Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+- **Descrição:** Conjunto de dados com registros de campanhas de marketing direto (via telefone) de uma instituição bancária portuguesa.
+- **Total de registros:** Aproximadamente 45.000 clientes
+
+### 🔎 Variável Alvo
+- `y`: indica se o cliente aderiu (`yes`) ou não (`no`) à campanha.
 
 ---
 
-## ⚙️ Pipeline do Projeto
+## ⚙️ Etapas Realizadas
 
-1. **Análise Exploratória (EDA)**
-   - Gráficos, distribuições e padrões de comportamento
-   - Correlações e impactos no target
+1. **Análise Exploratória de Dados (EDA)**
+   - Entendimento do perfil dos clientes
+   - Identificação de padrões de comportamento
+   - Correlações entre variáveis e a variável alvo
 
 2. **Pré-processamento**
-   - Encoding de variáveis categóricas
-   - Padronização de variáveis numéricas
-   - Split treino/teste
+   - Tratamento de valores categóricos com One-Hot Encoding
+   - Normalização de variáveis numéricas
+   - Divisão entre dados de treino e teste
 
 3. **Modelagem**
-   - Algoritmos testados:
-     - Logistic Regression
-     - Decision Tree
-     - Random Forest
+   - Modelos aplicados:
+     - Regressão Logística
      - KNN
-     - XGBoost
+     - Árvore de Decisão
+     - Random Forest
      - Gradient Boosting
-   - Métricas de avaliação:
-     - Acurácia
-     - Matriz de Confusão
-     - Curva ROC e AUC
+     - XGBoost
 
-4. **Comparação e Escolha do Melhor Modelo**
-
----
-
-## 📊 Resultados Principais
-
-- Modelos em ensemble (Random Forest / Gradient Boosting) apresentaram melhor performance.
-- Fatores mais relevantes para adesão:
-  - Duração do contato
-  - Resultado de campanhas anteriores
-  - Tipo de contato (celular tem maior conversão)
-- Campanhas muito insistentes (muitos contatos) tendem a reduzir a taxa de conversão.
+4. **Avaliação**
+   - Acurácia
+   - Matriz de Confusão
+   - Curva ROC e AUC
 
 ---
 
-## 💼 Aplicações Reais
+## 📈 Principais Resultados
 
-- Otimização de listas de contato
-- Redução de custos com campanhas mal direcionadas
-- Aumento da conversão com segmentação inteligente
-- Ferramenta de apoio à decisão para equipes comerciais
+- **Melhores modelos:** Random Forest e Gradient Boosting apresentaram excelente desempenho.
+- **Variáveis mais influentes:** duração do contato, número de interações, tipo de contato e sucesso em campanhas anteriores.
+- **Insight de negócio:** contatos via celular e com menos tentativas tendem a ser mais eficazes.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python
-- Pandas, NumPy
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib & Seaborn
 - Scikit-learn
-- Seaborn, Matplotlib
 - XGBoost
-- Jupyter Notebook
 
 ---
 
 ## 📁 Estrutura do Projeto
-
----
-
-## 👤 Autor
-
-**Fábio Oliveira**  
-🔗 GitHub: [@fabiooliveira95](https://github.com/fabiooliveira95)
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob os termos da **MIT License**.
-
 
