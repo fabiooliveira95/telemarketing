@@ -8,6 +8,7 @@ Este projeto tem como objetivo analisar e prever o comportamento de clientes fre
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Base de Dados](#base-de-dados)
+- [Base de Dados](#Link-da-aplicacao)
 - [Etapas Realizadas](#etapas-realizadas)
 - [Principais Resultados](#principais-resultados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -28,6 +29,12 @@ Campanhas de telemarketing podem ser dispendiosas. Este projeto visa tornar essa
 - **Descrição:** Dados de campanhas de marketing direto via telefone realizadas por um banco português.
 - **Tamanho:** ~45.000 registros
 
+---
+
+### Link para a aplicacao (Livre)
+https://telemarketing-z7au.onrender.com/
+
+---
 ### 🎯 Variável Alvo
 - `y`: indica se o cliente aderiu (`yes`) ou não (`no`) à campanha.
 
