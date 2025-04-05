@@ -13,6 +13,7 @@ Este projeto tem como objetivo analisar e prever o comportamento de clientes fre
 - [Principais Resultados](#principais-resultados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Executar o Projeto](#como-executar-o-projeto)
+- [Contato](#contado)
 
 ---
 
@@ -100,6 +101,12 @@ https://telemarketing-z7au.onrender.com
     pip install -r requirements.txt
 
     # Execute o notebook no Jupyter ou ambiente de sua preferência
+
+## 📬 Contato
+
+Fábio Oliveira  
+🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)  
+📧 fabiooliveira0067@gmail.com
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
