@@ -1,7 +1,6 @@
 # 📞 Projeto Telemarketing – Predição de Adesão a Produtos Bancários
 
 Este projeto tem como objetivo analisar e prever o comportamento de clientes frente a campanhas de marketing telefônico. Usando dados reais de campanhas anteriores, foram aplicadas técnicas de Machine Learning para identificar padrões e aumentar a taxa de conversão.
-
 ---
 
 ## 📌 Índice
@@ -66,10 +65,10 @@ https://telemarketing-z7au.onrender.com
 
 - **Melhores modelos:** Random Forest e Gradient Boosting
 - **Variáveis mais influentes:**
-  - Duração da chamada
-  - Número de contatos anteriores
-  - Tipo de contato (telefone fixo/celular)
-  - Participação em campanhas anteriores
+- Duração da chamada
+- Número de contatos anteriores
+- Tipo de contato (telefone fixo/celular)
+- Participação em campanhas anteriores
 - **Insight de negócio:** Contatos via celular com menos tentativas são mais eficazes.
 
 ---
@@ -85,22 +84,24 @@ https://telemarketing-z7au.onrender.com
 ---
 
 ## ▶️ Como Executar o Projeto
-
-    bash
-    # Clone o repositório
-    git clone https://github.com/fabiooliveira95/telemarketing.git
-
-    # Acesse o diretório
-    cd telemarketing
-
-    # (Opcional) Crie um ambiente virtual
-    python -m venv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
-
-    # Instale as dependências
-    pip install -r requirements.txt
-
-    # Execute o notebook no Jupyter ou ambiente de sua preferência
+# Clone o repositorio
+```bash
+   git clone https://github.com/fabiooliveira95/telemarketing.git
+```
+# Acesse o diretorio
+```bash
+   cd telemarketing
+```
+# (Opcional) Crie um ambiente virtual
+```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
+# Instale as dependências
+```bash
+   pip install -r requirements.txt
+```
+# Execute o notebook no Jupyter ou ambiente de sua preferência
 
 ## 📬 Contato
 
