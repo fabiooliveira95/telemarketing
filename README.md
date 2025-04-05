@@ -1,70 +1,84 @@
-# 📞 Projeto Telemarketing – Análise e Predição de Adesão a Produtos Bancários
 
-Este projeto tem como objetivo analisar e prever o comportamento de clientes frente a campanhas de marketing realizadas por telefone. A ideia central é desenvolver modelos que consigam antecipar se um cliente irá ou não aderir a um produto bancário, com base em dados históricos.
+# 📞 Projeto Telemarketing – Previsão de Adesão de Clientes
 
----
-
-## 🧠 Sobre o Projeto
-
-Uma empresa do setor bancário realizou diversas campanhas de marketing telefônico oferecendo seus produtos. Este projeto busca entender o perfil dos clientes que mais tendem a aceitar uma oferta e aplicar **modelos de machine learning** para ajudar na **tomada de decisão** e **aumentar a taxa de conversão**.
+Este projeto aplica técnicas de Machine Learning para prever se um cliente irá **aderir a um produto bancário** após uma campanha de telemarketing. Utilizamos dados reais do setor bancário europeu, disponíveis publicamente, para construir modelos de classificação binária.
 
 ---
 
-## 📊 Base de Dados
+## 🎯 Objetivo
 
-- **Fonte:** [UCI Machine Learning Repository – Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
-- **Descrição:** Conjunto de dados com registros de campanhas de marketing direto (via telefone) de uma instituição bancária portuguesa.
-- **Total de registros:** Aproximadamente 45.000 clientes
-
-### 🔎 Variável Alvo
-- `y`: indica se o cliente aderiu (`yes`) ou não (`no`) à campanha.
+O objetivo é apoiar equipes de marketing e vendas na **tomada de decisão**, identificando os clientes com maior chance de conversão durante campanhas telefônicas.
 
 ---
 
-## ⚙️ Etapas Realizadas
+## 🧩 Sobre o Dataset
 
-1. **Análise Exploratória de Dados (EDA)**
-   - Entendimento do perfil dos clientes
-   - Identificação de padrões de comportamento
-   - Correlações entre variáveis e a variável alvo
+- Origem: [UCI Machine Learning Repository – Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+- Registros: ~45.000 interações de clientes
+- Target: `y` → Cliente aderiu (`yes`) ou não (`no`) ao produto ofertado
+- Features: 
+  - Dados demográficos (idade, profissão, escolaridade)
+  - Comportamento financeiro (empréstimos, saldo)
+  - Interações com campanhas anteriores
+
+---
+
+## ⚙️ Pipeline do Projeto
+
+1. **Análise Exploratória (EDA)**
+   - Gráficos, distribuições e padrões de comportamento
+   - Correlações e impactos no target
 
 2. **Pré-processamento**
-   - Tratamento de valores categóricos com One-Hot Encoding
-   - Normalização de variáveis numéricas
-   - Divisão entre dados de treino e teste
+   - Encoding de variáveis categóricas
+   - Padronização de variáveis numéricas
+   - Split treino/teste
 
 3. **Modelagem**
-   - Modelos aplicados:
-     - Regressão Logística
-     - KNN
-     - Árvore de Decisão
+   - Algoritmos testados:
+     - Logistic Regression
+     - Decision Tree
      - Random Forest
-     - Gradient Boosting
+     - KNN
      - XGBoost
+     - Gradient Boosting
+   - Métricas de avaliação:
+     - Acurácia
+     - Matriz de Confusão
+     - Curva ROC e AUC
 
-4. **Avaliação**
-   - Acurácia
-   - Matriz de Confusão
-   - Curva ROC e AUC
+4. **Comparação e Escolha do Melhor Modelo**
 
 ---
 
-## 📈 Principais Resultados
+## 📊 Resultados Principais
 
-- **Melhores modelos:** Random Forest e Gradient Boosting apresentaram excelente desempenho.
-- **Variáveis mais influentes:** duração do contato, número de interações, tipo de contato e sucesso em campanhas anteriores.
-- **Insight de negócio:** contatos via celular e com menos tentativas tendem a ser mais eficazes.
+- Modelos em ensemble (Random Forest / Gradient Boosting) apresentaram melhor performance.
+- Fatores mais relevantes para adesão:
+  - Duração do contato
+  - Resultado de campanhas anteriores
+  - Tipo de contato (celular tem maior conversão)
+- Campanhas muito insistentes (muitos contatos) tendem a reduzir a taxa de conversão.
+
+---
+
+## 💼 Aplicações Reais
+
+- Otimização de listas de contato
+- Redução de custos com campanhas mal direcionadas
+- Aumento da conversão com segmentação inteligente
+- Ferramenta de apoio à decisão para equipes comerciais
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib & Seaborn
+- Python
+- Pandas, NumPy
 - Scikit-learn
+- Seaborn, Matplotlib
 - XGBoost
+- Jupyter Notebook
 
 ---
 
