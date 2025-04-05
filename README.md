@@ -13,7 +13,6 @@ Este projeto tem como objetivo analisar e prever o comportamento de clientes fre
 - [Principais Resultados](#principais-resultados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Executar o Projeto](#como-executar-o-projeto)
-- [Contato](#contato)
 
 ---
 
