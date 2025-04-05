@@ -8,7 +8,7 @@ Este projeto tem como objetivo analisar e prever o comportamento de clientes fre
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Base de Dados](#base-de-dados)
-- [Base de Dados](#Link-da-aplicacao)
+- [Link da aplicacao](#Link-da-aplicacao)
 - [Etapas Realizadas](#etapas-realizadas)
 - [Principais Resultados](#principais-resultados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
